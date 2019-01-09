@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="EFM8BB10F8G-A-QSOP24" partId="mcu.8051.efm8.bb1.efm8bb10f8g-a-qsop24" version="4.0.1" contextId="%DEFAULT%">
+  <mode name="DefaultMode">
+    <property object="CLOCK_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="CLOCK_0" propertyId="clock.clockselect.clocksourcedivider" value="SYSCLK / 1"/>
+    <property object="CLOCK_0" propertyId="clock.clockselect.sysclk" value="24.500 MHz"/>
+    <property object="CROSSBAR0" propertyId="xbar0.spi0.clockdata" value="Enabled"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="INTERRUPT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="INTERRUPT_0" propertyId="interrupt.interruptenable.enableallinterrupts" value="Enabled"/>
+    <property object="INTERRUPT_0" propertyId="interrupt.interruptenable.enablespi0interrupt" value="Enabled"/>
+    <property object="P0.0" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P0.0" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P0.0" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.1" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.2" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.3" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P0.3" propertyId="ports.settings.label" value="SPI0_CS"/>
+    <property object="P0.3" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P0.3" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.4" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.5" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.6" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P0.6" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.0" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P1.0" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.1" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P1.1" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.4" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P1.4" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.4" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.enablecrossbar" value="Enabled"/>
+    <property object="SPI_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="SPI_0" propertyId="spi.clockrate.spiclockfrequencyactual" value="1.021 MHz"/>
+    <property object="SPI_0" propertyId="spi.clockrate.spiclockfrequencytarget" value="1020833"/>
+    <property object="SPI_0" propertyId="spi.clockrate.sysclk" value="24.500 MHz"/>
+    <property object="SPI_0" propertyId="spi.clockrate.sysclkdividercoefficientspi0ckr" value="11"/>
+    <property object="SPI_0" propertyId="spi.configuration.enablemastermode" value="Enable"/>
+    <property object="SPI_0" propertyId="spi.configuration.spimode" value="Master"/>
+    <property object="SPI_0" propertyId="spi.control.busmodeslave" value="Slave 4-wire mode"/>
+    <property object="SPI_0" propertyId="spi.control.slaveselectmode" value="Slave or master 3-wire mode"/>
+    <property object="SPI_0" propertyId="spi.control.spienable" value="Enabled"/>
+    <property object="SPI_0" propertyId="spi.view.view" value="Advanced"/>
+    <property object="WDT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="WDT_0" propertyId="wdt.watchdogcontrol.wdtenable" value="Disable"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
